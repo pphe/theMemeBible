@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">The Meme Bible</string>
+    <string name="initial_fragment_title_textview">Welcome!</string>
+    <string name="login_initialfragment_button">Login</string>
+    <string name="register_initialfragment_button">Register</string>
+    <string name="display_fragment_title_textview">Display</string>
+    <string name="username_loginfragment_label">Username</string>
+    <string name="password_loginfragment_label">Password</string>
+    <string name="ok_loginfragment_button">OK</string>
+    <string name="username_key_loginfragment">username_key</string>
+    <string name="password_key_loginfragment">password_key</string>
+    <string name="confirm_password_key_loginfragment">confirm_password_key</string>
+    <string name="password_confirm_text">Confirm Password</string>
+    <string name="response_key_displayfragment">response_key</string>
+    <string name="api_key">GRL4b7BUM6QjNEEvJo2wNPNQk5SJARmlAkSFBDfY</string>
+    <string name="search_hint">Search...</string>
+    <string name="search_button">Search!</string>
+
+    <string name="photo_data_key">photo data key</string>
+
+    <string name="info_button_content_description">Requirements</string>
+    <string name="LINKS">linkstring</string>
+
+    <string name="query_type_key">query type</string>
+    <string name="query_string_key">query string</string>
+
+    <string name="captioned_meme_key">captioned meme</string>
+    <string name="my_meme_bitmap_key">my meme bitmap</string>
+
+    <string name="meme_obj_to_caption_key">meme object to caption</string>
+    <string name="drawable_to_caption_key">drawable to caption</string>
+    <string name="logout_button_label">Logout</string>
+</resources>

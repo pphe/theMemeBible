@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="group3.tcss450.uw.edu.thememebible.LoginFragment">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cropped_doge"
+        android:id="@+id/logo"
+        android:layout_marginTop="26dp"
+        android:contentDescription="@string/app_name"
+        android:layout_below="@+id/tvAppName"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:hint="@string/username_loginfragment_label"
+        android:inputType="textVisiblePassword|textNoSuggestions"
+        android:maxLines="1"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password_loginfragment_label"
+        android:inputType="textNoSuggestions|textPassword"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/editTextUsername"
+        android:layout_alignLeft="@+id/editTextUsername"
+        android:layout_alignStart="@+id/editTextUsername" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_marginTop="42dp"
+        android:text="@string/login_initialfragment_button"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop" />
+
+
+</RelativeLayout>

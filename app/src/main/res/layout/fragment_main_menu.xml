@@ -1,0 +1,56 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_menu"
+    android:layout_gravity="center"
+    tools:context="group3.tcss450.uw.edu.thememebible.MainMenuFragment"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/meme_catalog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:text="Catalog"
+        android:gravity="center"
+        style="@style/button"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="170dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_memes"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="My Memes"
+        style="@style/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meme_catalog"
+        app:layout_constraintVertical_bias="0.027"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout_button_label"
+        style="@style/button"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp" />
+
+</android.support.constraint.ConstraintLayout>
